@@ -1,0 +1,8 @@
+<app-header></app-header>
+<form class="box" action="index.html" method="POST">
+    <h1>Registration</h1>
+    <input type="text" name="Login" placeholder="Login" [(ngModel)]="user.login">
+    <input type="text" name="Nick" placeholder="Username" [(ngModel)]="user.nickname">
+    <input type="password" name="Password" placeholder="Password" [(ngModel)]="user.password">
+    <input type="submit" value="Registration" (click)="registration()">
+</form>

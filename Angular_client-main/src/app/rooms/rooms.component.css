@@ -1,0 +1,24 @@
+.rooms_main_wrapper {
+    position: absolute;
+    text-align: center;
+}
+
+.rooms {
+    background-color: #ffffff;
+    margin-left: 40px;
+    padding: 0px;
+}
+
+.game_info_wrapper {
+    display: flex;
+    padding: 5px;
+}
+
+#game_info {
+    margin-right: auto;
+    list-style-type: none;
+}
+
+#select_room {
+    margin-left: auto;
+}

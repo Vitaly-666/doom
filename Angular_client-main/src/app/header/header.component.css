@@ -1,0 +1,27 @@
+header div {
+    text-align: right;
+}
+
+header input {
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 30px;
+    background: none;
+    border: 0;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #ff8800;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+header input[id="sign_in_button"]:hover {
+    background: #2ecc71;
+}
+
+header input[id="sing_up_button"]:hover {
+    background: #3498db;
+}

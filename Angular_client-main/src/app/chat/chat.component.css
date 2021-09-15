@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+}
+
+.chat_container {
+    position: absolute;
+    margin-top: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+#chat_h1 {
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+
+#chat {
+    resize: none;
+    outline: none;
+}
+
+#sendText {
+    border: 0px;
+    border-radius: 20px;
+    margin: 3px;
+}

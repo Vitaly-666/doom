@@ -1,0 +1,26 @@
+<app-logout></app-logout>
+<div class="rooms_main_wrapper">
+    <div>
+        <h1>Rooms</h1>
+    </div>
+    <!-- <div class="input_wrapper">
+        <span>Создать комнату</span>
+        <input type="text" placeholder="Название комнаты" id="1" [(ngModel)]="roomName">
+        <input type="button" id="roomInput" value="Создать комнату" (click)="createRoom()">
+    </div> -->
+    <div class="rooms_wrapper">
+        <ul class="rooms">
+            <li *ngFor="let game of games" class="game_info_wrapper">
+                <span class="game_info">{{game.name}} Кол-во игроков: {{game.gamersCount}}</span>
+                <input type="button" id="select_room" value="Войти в комнату" (click)="joinGame(game.name)">
+            </li>
+        </ul>
+    </div>
+    <div>
+        <button (click)="getNames()">button</button>
+    </div>
+    <div style="margin-top: 10px;">
+        <input [(ngModel)]="secretWord" type="text" placeholder="Кодовое слово - logout">
+        <button (click)="logoutAllUsers()">Разлогинить всех игроков</button>
+    </div>
+</div>
